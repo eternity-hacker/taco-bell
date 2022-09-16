@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Taco Bell</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Template Project</title>
-</head>
-
-<body>
-
-    <script src="script.js"></script>
-</body>
-
+  <body>
+     <header id="header">
+      <div class="flex-item-login"><button>LOG IN</button></div>
+      <div class="flex-item-logo">
+        <img src="images/taco-bell-logo.png" alt="taco bell logo" />
+      </div>
+      <div class="flex-item-rewards">
+        <img src="./images/reward.png" alt="rewards program">
+      </div>
+      <div  class="flex-item-order"><button>START YOUR ORDER</button></div>
+    </div>
+</header>
+    <main id="main">
+         
+     <aside class="sidebar-menu">
+        <div id="logo-box"><img src="/images/taco-bell-logo.png" alt=""></div>
+        <menu>
+            <li>MENU</li>
+            <li>LOCATIONS</li>
+            <li>REWARDS</li>
+            <li>NUTRITION</li>
+            <li>GIFT CARDS</li>
+        </menu>
+      </aside>
+        <section id="main-menu">
+        <h1 class="flex-item">TACO BELL MENU</h1>
+      <div id="flex-container">  
+        <figure class="flex-item">
+            <img src="images/tacos-icon.png" alt="tacos">
+            <figcaption>TACOS</figcaption>
+        </figure>
+        <figure class="flex-item">
+            <img src="images/combos-icon.png" alt="combos">
+            <figcaption>COMBOS</figcaption>
+        </figure>
+        <figure class="flex-item">
+            <img src="images/online-exclusives-icon.png" alt="online exclusives">
+            <figcaption>ONLINE EXCLUSIVES</figcaption>
+        </figure>
+        <figure class="flex-item">
+            <img src="images/new-icon.png" alt="new">
+            <figcaption>NEW</figcaption>
+        </figure>
+       </div> 
+        </section>
+     </main>
+  </body>
 </html>
